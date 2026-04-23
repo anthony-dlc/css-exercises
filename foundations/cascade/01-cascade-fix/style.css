@@ -10,7 +10,7 @@ body {
 
 .small-para {
   font-size: 14px;
-  font-weight: 800;
+  font-weight: 800; /* This one is not necessary */
 }
 
 .para {
@@ -21,7 +21,7 @@ body {
   background: green;
   color: white;
   font-weight: bold;
-} 
+}
 
 .button {
   background-color: rgb(255, 255, 255);
@@ -39,4 +39,22 @@ div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
+}
+
+/* SOLUTION: */
+
+.small-para {
+  font-size: 14px;
+}
+
+.confirm {
+  background: green;
+  color: white;
+  font-weight: bold;
+}
+
+.text.child {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 14px;
 }

@@ -18,3 +18,37 @@ body {
 button {
   background: white;
 }
+
+/* CHANGES: */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  padding: 16px 8px 4px;
+}
+
+.title,
+.button-container {
+  font-size: 16px;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+
+.content {
+  padding: 12px 8px;
+  margin-bottom: 8px;
+}
+
+.button-container {
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin: auto;
+  padding: 8px 16px;
+}

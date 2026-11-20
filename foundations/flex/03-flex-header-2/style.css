@@ -50,7 +50,6 @@ ul {
 /* SOLUTION */
 
 * {
-  /* outline: 3px solid; */
   margin: 0;
   padding: 0;
 }
@@ -64,7 +63,6 @@ ul {
 
 .links {
   display: flex;
-  /* background-color: lightcoral; */
   justify-content: space-between;
   gap: 12px;
 }

@@ -57,19 +57,19 @@ ul {
 .header {
   display: flex;
   align-items: center;
-  gap: 12px;
-  padding: 12px;
+  gap: 8px;
+  padding: 8px;
 }
 
 .links {
   display: flex;
   justify-content: space-between;
-  gap: 12px;
+  gap: 8px;
 }
 
 .right-side {
   margin-left: auto;
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 8px;
 }
